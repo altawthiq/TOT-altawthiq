@@ -1,0 +1,91 @@
+﻿/* Extracted inline style attributes */
+.inl-0026 { color: rgb(248, 167, 59) !important; }
+.inl-0021 { width: 74% !important; }
+.inl-0007 { font-family: "Tajawal", sans-serif !important; }
+.inl-0019 { width: 70% !important; }
+.inl-0011 { color: rgb(255, 255, 255) !important; }
+.inl-0005 { width: 100% !important; }
+.inl-0002 { color: rgba(255, 255, 255, 1) !important; }
+.inl-0006 { color: rgba(0, 0, 0, 1) !important; }
+.inl-0008 { color: rgb(0, 0, 0) !important; }
+.inl-0015 { width: 28% !important; }
+.inl-0020 { width: 75% !important; }
+.inl-0010 { color: rgba(233, 22, 3, 1) !important; }
+.inl-0018 { color: rgba(28, 172, 224, 1) !important; }
+.inl-0027 { color: rgb(192, 62, 48) !important; }
+.inl-0036 { display: none !important; }
+.inl-0030 { width: 86% !important; }
+.inl-0009 { max-width: 100% !important; }
+.inl-0012 { font-family: "Times New Roman", sans-serif !important; }
+.inl-0016 { width: 68% !important; }
+.inl-0025 { position:absolute;top:0;left:0;width:100%;height:100%; }
+.inl-0001 { display: none !important; }
+.inl-0023 { width: 46% !important; }
+.inl-0017 { font-weight: 400 !important; }
+.inl-0035 { font-family: "NotoKufiArabic-Light300", sans-serif !important; }
+.inl-0032 { width: 49% !important; }
+.inl-0031 { width: 47% !important; }
+.inl-0028 { width: 60% !important; }
+.inl-0004 { color: rgba(248, 167, 59, 1) !important; }
+.inl-0014 { width: 83% !important; }
+.inl-0029 { width: 15% !important; }
+.inl-0003 { font-family: "NotoKufiArabic-ExtraLight200", sans-serif !important; }
+.inl-0034 { width: 93% !important; }
+.inl-0024 { padding:56.25% 0 0 0;position:relative; }
+.inl-0022 { width: 54% !important; }
+.inl-0013 { width: 61% !important; }
+.inl-0033 { width: 56% !important; }
+
+
+/* Custom simplified header */
+.custom-top-header {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 20px;
+  background: rgba(14, 14, 14, 0.78);
+}
+
+.custom-top-header__logo img {
+  width: 78px;
+  height: auto;
+  display: block;
+}
+
+.custom-top-header__links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.custom-top-header__links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Tajawal", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.custom-top-header__links a:hover {
+  color: #f8a73b;
+}
+
+@media (max-width: 768px) {
+  .custom-top-header {
+    flex-direction: column;
+    padding: 10px 12px;
+  }
+
+  .custom-top-header__links {
+    gap: 12px;
+  }
+
+  .custom-top-header__links a {
+    font-size: 16px;
+  }
+}
